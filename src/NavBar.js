@@ -258,7 +258,7 @@ class NavBar extends React.Component {
     }
 
     const text = childState.backTitle ?
-      (<Text style={textButtonStyle}>
+      (<Text style={textButtonStyle} allowFontScaling={false}>
         {childState.backTitle}
       </Text>)
       : null;
